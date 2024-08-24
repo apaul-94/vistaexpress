@@ -1,0 +1,70 @@
+/*======================== 
+For posts or blogs page 
+========================*/
+.post-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.post-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.post-thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.post-title {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.post-meta {
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 10px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.post-date{
+    background-color: #ededed;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.post-author{
+    background-color: #fcb900;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.post-excerpt {
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.read-more:hover {
+    opacity: 0.8;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+.post-meta .post-category {
+    color: #333;
+}

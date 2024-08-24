@@ -1,0 +1,9 @@
+/*========================= 
+Style for Copyright section 
+=========================*/
+#copyright-section{
+    background-color: #333;
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+}

@@ -1,0 +1,194 @@
+/* Single post design css */
+#single-post-thumbnail img{
+    width: 100%;
+    height: auto;
+    padding: 0px 16px;
+}
+
+#single-post-title{
+    padding: 5px 16px 0px 16px;
+}
+
+#single-post-meta-data{
+    padding: 0px 16px 5px 16px;
+}
+
+#single-post-date{
+    font-size: 15px;
+    color: rgb(58, 58, 58);
+    padding: 10px;
+    font-family: monospace;
+    font-weight: bold;
+    background-color: #ededed;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#single-post-author{
+    font-size: 15px;
+    background-color: #fcb900;
+    color: rgb(58, 58, 58);
+    padding: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#single-post-content{
+    font-family: monospace;
+    font-size: 15px;
+    padding: 5px 16px 0px 16px;
+}
+
+#post-navigation{
+    padding: 5px 16px 0px 16px;
+}
+
+#previous-post-link{
+    background-color: #ededed;
+    padding: 20px 20px;
+    border-left: 5px solid #0073aa;
+    font-size: 20px;
+    margin: 0px 5px 0px 0px;
+}
+
+#previous-post-link a{
+    text-decoration: none;
+    color: black;
+}
+
+#previous-post-link a:hover{
+    color: #0073aa
+}
+
+#next-post-link{
+    background-color: #ededed;
+    padding: 20px 20px;
+    border-right: 5px solid #0073aa;
+    font-size: 20px;
+    margin: 0px 0px 0px 5px;
+}
+
+#next-post-link a{
+    text-decoration: none;
+    color: black;
+}
+
+#next-post-link a:hover{
+    color: #0073aa
+}
+
+/* For post categories and post tags */
+#single-post-categories-tags{
+    padding: 16px 16px 0px 16px;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#post-categories-title{
+    font-family: New Amsterdam, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#post-tags-title{
+    font-family: New Amsterdam, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/* For User Comment Section */
+#comment-template-section{
+    padding: 16px 16px 0px 16px;
+}
+
+span#email-notes{
+    font-weight: bold;
+}
+
+span.required-field-message{
+    color: #0073aa;
+    font-weight: bold;
+}
+
+p.comment-notes{
+    font-family: monospace;
+    font-size: 15px;
+}
+
+label{
+    font-family: monospace;
+    font-size: 15px;
+}
+
+#comments{
+    display: block;
+}
+
+.comments-area {
+    display: block;
+}
+
+.comment-list {
+    margin-bottom: 40px; /* Adds space between comment list and comment form */
+}
+
+.commentlist li{
+    list-style: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    left: -22px;
+    font-family: monospace;
+    font-size: 15px;
+    border: 1px solid rgb(85, 85, 85);
+}
+
+.comment-respond {
+    clear: both; 
+}
+
+.comment-list, .comment-respond {
+    width: 100%;
+    display: block;
+}
+
+.comment-form label{
+    display: block;
+    /* margin-bottom: 5px; */
+}
+
+/* Adjust input fields to have full width */
+.comment-respond input[type="text"],
+.comment-respond input[type="email"],
+.comment-respond textarea {
+    width: 100%;
+    padding: 10px;
+    /* margin-bottom: 00px; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+/* Style the submit button */
+.comment-respond input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #0073aa;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.comment-respond input[type="submit"]:hover {
+    background-color: #005580;
+}
+
+
+

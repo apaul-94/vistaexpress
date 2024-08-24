@@ -1,0 +1,40 @@
+/*================== 
+Style for pagination 
+==================*/
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content:start;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    position: relative;
+    left: -5px;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination li a {
+    padding: 10px 15px;
+    color: #000;
+    text-decoration: none;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.pagination li a:hover {
+    background-color: #878686;
+    color: #ddd;
+}
+
+.pagination li .current {
+    background-color: #0073aa;
+    color: #fff;
+    border-color: #0073aa;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
