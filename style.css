@@ -1,0 +1,219 @@
+/*===============================
+
+Theme Name: VistaExpress
+Theme URI: #
+Version: 1.0.0
+Author: Arun Paul
+Author URI: https://arunpaul.site
+Text Domain: arunvpress
+Requires at least: 6.4
+Tested up to: 6.6
+Requires PHP: 7.0
+Description: Vista Express is the ideal and best WordPress theme for individuals who value both elegance and utility. Vista Express's clean, modern style and emphasis on user-friendly customization enable you to create a gorgeous website without any coding experience. Whether you're creating a personal blog, a professional portfolio, or a company website, Vista Express can help you stand out with versatile style options, responsive design, and SEO optimization. Customizable headers, footers, fonts, and colors give you complete control over the appearance of your website.
+Tags: translation-ready, two-columns, right-sidebar, left-sidebar, footer-widgets, blog, custom-logo, custom-background, custom-menu, rtl-language-support, editor-style, threaded-comments, custom-colors, featured-images, wide-blocks, full-width-template, theme-options, e-commerce
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+=================================*/
+
+/*====================== 
+Style for Navigation Bar 
+======================*/
+header.navbar{
+    padding: 0px 0px 0px 0px;
+}
+
+li.current-menu-item a{
+    color: #fcb900;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+}
+
+.navbar-brand a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 32px;
+    position: relative;
+    top: 7px;
+}
+
+.navbar-brand a:hover{
+    text-decoration: none;
+    color: #fcb900;
+}
+
+.site-tagline {
+    color: #dfdfdf;
+    font-size: 12px;
+    font-family: monospace;
+}
+
+/* Toggle button styling */
+.navbar-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.navbar-toggle span {
+    background-color: #fcb900;
+    height: 3px;
+    width: 25px;
+    margin: 4px 0;
+}
+
+/* Menu styling */
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    right: -20px;
+}
+
+.navbar-menu li {
+    margin: 0 10px;
+}
+
+.navbar-menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    font-size: 22px;
+}
+
+.navbar-menu a:hover{
+    text-decoration: none;
+    color: #fcb900;
+}
+
+/* Dropdown arrow styling */
+.menu-item-has-children > a::after {
+    content: '\25BE'; /* Unicode character for down arrow */
+    font-size: 20px;
+    margin-left: 5px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    color: #fcb900;
+}
+
+.menu-item-has-children:hover > a::after {
+    transform: rotate(180deg); /* Rotate the arrow when hovered */
+}
+
+/* Dropdown styling */
+.navbar-menu .sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid whitesmoke;
+    z-index: 100;
+}
+
+.navbar-menu .menu-item-has-children:hover .sub-menu {
+    display: block;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-menu.active {
+        display: flex;
+    }
+
+    .navbar-toggle {
+        display: flex;
+    }
+}
+
+
+/*====================== 
+Style for Footer Section
+======================*/
+#footer-section{
+    background-color: #ededed;
+    padding: 30px 0px 40px 0px;
+    border-top: 5px solid #333;
+    overflow-wrap: break-word;
+}
+
+.widget-title{
+    font-family: New Amsterdam, sans-serif;
+}
+
+.widget{
+    font-size: 15px;
+    font-family: monospace;
+}
+
+#our-socials-facebook{
+    color: whitesmoke;
+    background-color: #316FF6;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: New Amsterdam, sans-serif;
+}
+
+#our-socials-github{
+    color: rgb(71, 71, 71);
+    background-color: #c6c6c6;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: New Amsterdam, sans-serif;
+
+}
+
+#our-socials-linkedin{
+    color: whitesmoke;
+    background-color: #090cad;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: New Amsterdam, sans-serif;
+}
+
+
+/*================
+Back to Top Button
+================*/
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0073aa; /* Bootstrap primary color */
+    border-radius: 50%;
+    color: white;
+    font-size: 25px;
+    padding: 10px 15px 8px 15px;
+    display: none;
+    z-index: 1000;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.back-to-top:hover {
+    color: rgb(35, 35, 35);
+    text-decoration: none;
+}
+
+
+h1, h2, h3, h4, h5, h6, .widget-title {
+    font-family: "New Amsterdam", sans-serif;
+}
