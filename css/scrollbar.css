@@ -1,0 +1,66 @@
+/*=================================== 
+Recent Posts Scrolling Section Styles
+===================================*/
+#recent-posts-title{
+    font-size: 24px;
+    z-index: 50;
+    position: relative;
+    background-color: #ededed;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: New Amsterdam, sans-serif;
+    box-shadow: 5px 5px 10px rgba(68, 68, 68, 0.747);
+}
+
+.recent-posts-scroll {
+    background-color: #0073aa;
+    overflow: hidden;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    /* margin-top: 16px; */
+    border: 15px solid #ededed;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    font-family: monospace;
+}
+
+.scrolling-wrapper {
+    display: flex;
+    align-items: center;
+    animation: scroll-left 20s linear infinite;
+    white-space: nowrap;
+}
+
+.scroll-item {
+    flex: 0 0 auto;
+    margin-right: 40px; /* Space between items */
+}
+
+.scroll-item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.scroll-item a:hover {
+    color: #fcb900;
+    text-decoration: none;
+}
+
+/* Keyframes for scrolling animation */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Pause animation on hover */
+.recent-posts-scroll:hover .scrolling-wrapper {
+    animation-play-state: paused;
+}

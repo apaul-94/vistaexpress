@@ -1,0 +1,247 @@
+/*=====================
+Custom Home Page Styles
+=====================*/
+
+/* Hero Section CSS */
+#hero-section-col1{
+    align-content: center;
+}
+
+#welcome-to{
+    font-size: 20px;
+    color: #777;
+    font-family: monospace;
+}
+
+#vista-press{
+    font-size: 55px;
+    margin-top: -15px;
+
+}
+
+#your-instantly{
+    font-size: 22px;
+    color: #0073aa;
+    margin-top: -15px;
+}
+
+#hero-about1 {
+    font-size: 16px;
+    font-family: monospace;
+    margin-top: 7px;
+}
+
+#hero-about2{
+    font-size: 16px;
+    font-family: monospace;
+    margin-top: 7px;
+}
+
+#hero-about-us-btn{
+    margin: 10px 10px 0px 0px;
+}
+
+#hero-contact-us-btn{
+    margin: 10px 10px 0px 0px;
+    background-color: #0073aa;
+    color: white;
+}
+
+#hero-section-col2 img{
+    padding: 20px;
+}
+
+/* Style for Vista Press Features Section */
+#features-of-vista-press{
+    font-size: 30px;
+}
+
+#features-image img{
+    filter: grayscale();
+}
+
+#features-texts{
+    font-size: 16px;
+    font-family: monospace;
+}
+
+/* Style for Admin Section */
+#admin-section-col1 img{
+    padding: 20px;
+}
+
+#admin-section-col2{
+    align-content: center;
+}
+
+#admin-section-social-media-facebook{
+    background-color: #316FF6;
+    padding: 5px 12px 3px 12px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 10px 10px 0px 0px;
+}
+
+#admin-section-social-media-facebook a{
+    text-decoration: none;
+    color: white;
+}
+
+#admin-section-social-media-instagram{
+    background-color: #bf25d7;
+    padding: 5px 12px 3px 12px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 10px 10px 0px 0px;
+}
+
+#admin-section-social-media-instagram a{
+    text-decoration: none;
+    color: white;
+}
+
+#admin-section-social-media-linkedin{
+    background-color: #243ddd;
+    padding: 5px 12px 3px 12px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 10px 10px 0px 0px;
+}
+
+#admin-section-social-media-linkedin a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Style for Tools and Technology Section */
+#tools-tech-col{
+    background-color: #77777756;
+    border-radius: 25px;
+    border: 15px solid white;
+}
+
+#tools-tech-col::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px; /* Adjust the width of the corner border */
+    height: 10px; /* Adjust the height of the corner border */
+    border-top: 45px solid #0073aa; /* Top border color */
+    border-left: 5px solid #0073aa; /* Left border color */
+    border-top-left-radius: 25px;
+    background: transparent;
+}
+
+#tools-tech-image img{
+    filter: grayscale();
+}
+
+#tools-tech-text1{
+    font-size: 25px;
+    margin-top: 8px;
+}
+
+#tools-tech-text2{
+    font-size: 14px;
+    font-family: monospace;
+}
+
+#other-tools-tech-image img{
+    padding: 10px 20px;
+}
+
+#other-tools-tech-text-html5{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: monospace;
+    background-color: orangered;
+    color: white;
+    padding: 5px 8px 5px 8px;
+    border-radius: 5px;
+}
+
+#other-tools-tech-text-css3{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: monospace;
+    background-color: rgb(23, 114, 205);
+    color: white;
+    padding: 5px 8px 5px 8px;
+    border-radius: 5px;
+}
+
+#other-tools-tech-text-js{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: monospace;
+    background-color: rgb(238, 209, 19);
+    color: rgb(52, 52, 52);
+    padding: 5px 8px 5px 8px;
+    border-radius: 5px;
+}
+
+#other-tools-tech-text-jquery{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: monospace;
+    background-color: rgb(48, 48, 48);
+    color: rgb(255, 255, 255);
+    padding: 5px 8px 5px 8px;
+    border-radius: 5px;
+}
+
+#other-tools-tech-text-github{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: monospace;
+    background-color: #3E77BF;
+    color: rgb(255, 255, 255);
+    padding: 5px 8px 5px 8px;
+    border-radius: 5px;
+}
+
+#other-tools-tech-text-xamp{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: monospace;
+    background-color: #07485E;
+    color: rgb(255, 255, 255);
+    padding: 5px 8px 5px 8px;
+    border-radius: 5px;
+}
+
+#other-tools-tech-text-pinterest{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: monospace;
+    background-color: #FF1E37;
+    color: rgb(255, 255, 255);
+    padding: 5px 8px 5px 8px;
+    border-radius: 5px;
+}
+
+#other-tools-tech-text-gfonts{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: monospace;
+    background-color: #E58B0A;
+    color: rgb(255, 255, 255);
+    padding: 5px 8px 5px 8px;
+    border-radius: 5px;
+}
+
+/* Why Choose Us Section */
+#why-choose-us-image img{
+    filter: grayscale();
+}
+
+#why-choose-us-text1{
+    font-size: 25px;
+    margin-top: 8px;
+}
+
+#why-choose-us-text2{
+    font-size: 14px;
+    font-family: monospace;
+}

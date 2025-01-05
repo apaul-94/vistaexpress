@@ -1,0 +1,42 @@
+/* Sidebar Style */
+#posts-page-sidebar{
+    background-color: #ededed;
+    height: auto;
+    padding: 15px 15px;
+    border: 15px solid #333;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 20px;
+    overflow-wrap: break-word;
+}
+
+/* Sidebar default form css */
+#sidebar-default-form{
+    padding: 0px 15px;
+}
+
+input#s{
+    width: 65%;
+    flex-grow: 1;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 8px;
+    border: 1px solid #323232;
+    border-radius: 5px;
+}
+
+input#searchsubmit{
+    width: 30%;
+    background-color: #0073aa;
+    color: white;
+    word-break: normal;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+
